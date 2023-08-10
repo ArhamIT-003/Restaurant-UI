@@ -6,7 +6,6 @@ import Image from "next/image";
 import AuthLinks from "./AuthLinks";
 
 const Navbar = () => {
-  const user = false;
   return (
     <>
       <div className="h-12 text-red-500 flex items-center justify-between border-b-2 border-b-red-500 uppercase p-4 md:h-24 lg:px-20 xl:px-40">
